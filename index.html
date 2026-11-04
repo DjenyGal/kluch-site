@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автосервис «Ключ» — Липецк | Ремонт и обслуживание автомобилей</title>
+    <meta name="description" content="Автосервис «Ключ» в Липецке. Профессиональный ремонт и обслуживание автомобилей. Рейтинг 4.8 на Яндекс.Картах. Работаем без выходных с 9:00 до 19:00.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo__icon">🔧</span>
+                <span class="logo__text">Автосервис «Ключ»</span>
+            </a>
+            <nav class="nav">
+                <a href="#services" class="nav__link">Услуги</a>
+                <a href="#about" class="nav__link">О нас</a>
+                <a href="#gallery" class="nav__link">Фото</a>
+                <a href="#reviews" class="nav__link">Отзывы</a>
+                <a href="#contacts" class="nav__link">Контакты</a>
+            </nav>
+            <div class="header__contacts">
+                <a href="tel:+74742399995" class="header__phone">39-99-95</a>
+                <a href="tel:+79107429995" class="header__phone">8-910-742-99-95</a>
+            </div>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__badge">
+                    <span class="hero__badge-star">★</span>
+                    <span class="hero__badge-rating">4.8</span>
+                    <span class="hero__badge-reviews">62 оценки</span>
+                </div>
+                <h1 class="hero__title">Автосервис «Ключ»<br>в Липецке</h1>
+                <p class="hero__subtitle">Профессиональный ремонт и обслуживание автомобилей. Работаем с 9:00 до 19:00 без перерыва и выходных.</p>
+                <div class="hero__actions">
+                    <a href="tel:+79107429995" class="btn btn--primary">Позвонить</a>
+                    <a href="#services" class="btn btn--secondary">Наши услуги</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="фото/2026-11-03_20-37-33.png" alt="Автосервис «Ключ» — фасад здания">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services__grid">
+                <div class="service-card" data-service="diagnostics">
+                    <span class="service-card__icon">🔍</span>
+                    <h3 class="service-card__title">Диагностика</h3>
+                    <p class="service-card__text">Компьютерная диагностика всех систем автомобиля</p>
+                </div>
+                <div class="service-card" data-service="suspension">
+                    <span class="service-card__icon">🔧</span>
+                    <h3 class="service-card__title">Ремонт подвески</h3>
+                    <p class="service-card__text">Замена амортизаторов, пружин, рычагов и сайлентблоков</p>
+                </div>
+                <div class="service-card" data-service="engine">
+                    <span class="service-card__icon">⚙️</span>
+                    <h3 class="service-card__title">Ремонт ДВС</h3>
+                    <p class="service-card__text">Капитальный и текущий ремонт двигателей</p>
+                </div>
+                <div class="service-card" data-service="brakes">
+                    <span class="service-card__icon">🛑</span>
+                    <h3 class="service-card__title">Ремонт тормозов</h3>
+                    <p class="service-card__text">Замена колодок, дисков, суппортов и тормозной жидкости</p>
+                </div>
+                <div class="service-card" data-service="oil">
+                    <span class="service-card__icon">🛢️</span>
+                    <h3 class="service-card__title">Замена масла</h3>
+                    <p class="service-card__text">Замена масла ДВС, фильтров, свечей зажигания</p>
+                </div>
+                <div class="service-card" data-service="exhaust">
+                    <span class="service-card__icon">💨</span>
+                    <h3 class="service-card__title">Выхлопная система</h3>
+                    <p class="service-card__text">Ремонт и замена глушителей, катализаторов, резонаторов</p>
+                </div>
+                <div class="service-card" data-service="tires">
+                    <span class="service-card__icon">🛞</span>
+                    <h3 class="service-card__title">Шиномонтаж</h3>
+                    <p class="service-card__text">Сезонная замена шин, балансировка, ремонт проколов</p>
+                </div>
+                <div class="service-card" data-service="parts">
+                    <span class="service-card__icon">🔩</span>
+                    <h3 class="service-card__title">Автозапчасти</h3>
+                    <p class="service-card__text">Продажа оригинальных и аналоговых запчастей</p>
+                </div>
+                <div class="service-card" data-service="wash">
+                    <span class="service-card__icon">🚿</span>
+                    <h3 class="service-card__title">Автомойка</h3>
+                    <p class="service-card__text">Комплексная мойка кузова и салона</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают нас</h2>
+            <div class="about__stats">
+                <div class="about__stat">
+                    <div class="about__stat-number">4.8</div>
+                    <div class="about__stat-text">Рейтинг на Яндекс.Картах</div>
+                </div>
+                <div class="about__stat">
+                    <div class="about__stat-number">62</div>
+                    <div class="about__stat-text">Положительных отзыва</div>
+                </div>
+                <div class="about__stat">
+                    <div class="about__stat-number">9:00–19:00</div>
+                    <div class="about__stat-text">Работаем без выходных</div>
+                </div>
+            </div>
+            <div class="about__inner">
+                <div class="about__content">
+                    <p>Автосервис «Ключ» — это современный сервисный центр в Липецке, оснащённый профессиональным оборудованием ROSSVIK. Мы выполняем полный спектр работ по ремонту и обслуживанию автомобилей всех марок.</p>
+                    <p>Наши мастера имеют многолетний опыт работы и регулярно проходят обучение. Мы используем только качественные запчасти и расходные материалы.</p>
+                    <ul class="about__list">
+                        <li>Гарантия на все виды работ</li>
+                        <li>Оригинальные запчасти и качественные аналоги</li>
+                        <li>Бесплатная диагностика при ремонте</li>
+                        <li>Работаем без выходных и перерывов</li>
+                        <li>Удобное расположение в промзоне</li>
+                    </ul>
+                </div>
+                <div class="about__image">
+                    <img src="фото/2026-11-03_20-36-32.png" alt="Автосервис «Ключ» — внутри сервиса">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Фотогалерея</h2>
+            <div class="gallery__grid">
+                <div class="gallery__item">
+                    <img src="фото/2026-11-03_20-35-44.png" alt="Автосервис «Ключ»">
+                </div>
+                <div class="gallery__item">
+                    <img src="фото/2026-11-03_20-37-08.png" alt="Автосервис «Ключ»">
+                </div>
+                <div class="gallery__item">
+                    <img src="фото/2026-11-03_20-37-33.png" alt="Автосервис «Ключ»">
+                </div>
+                <div class="gallery__item">
+                    <img src="фото/2026-11-03_20-37-58.png" alt="Автосервис «Ключ»">
+                </div>
+                <div class="gallery__item">
+                    <img src="фото/2026-11-03_20-38-45.png" alt="Автосервис «Ключ»">
+                </div>
+                <div class="gallery__item">
+                    <img src="фото/2026-11-03_20-39-06.png" alt="Автосервис «Ключ»">
+                </div>
+                <div class="gallery__item">
+                    <img src="фото/2026-11-03_20-39-32.png" alt="Автосервис «Ключ»">
+                </div>
+                <div class="gallery__item">
+                    <img src="фото/2026-11-03_20-40-01.png" alt="Автосервис «Ключ»">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы клиентов</h2>
+            <div class="reviews__carousel">
+                <div class="reviews__track">
+                    <div class="reviews__slide">
+                        <div class="review-card">
+                            <div class="review-card__header">
+                                <div class="review-card__avatar">А</div>
+                                <div class="review-card__info">
+                                    <h4>Александр</h4>
+                                    <div class="review-card__rating">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="review-card__text">Отличный сервис! Быстро и качественно отремонтировали подвеску. Цены адекватные, мастера профессиональные. Рекомендую!</p>
+                        </div>
+                    </div>
+                    <div class="reviews__slide">
+                        <div class="review-card">
+                            <div class="review-card__header">
+                                <div class="review-card__avatar">М</div>
+                                <div class="review-card__info">
+                                    <h4>Марина</h4>
+                                    <div class="review-card__rating">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="review-card__text">Обслуживаюсь здесь уже год. Всегда всё чётко, вовремя и с гарантией. Очень довольна сервисом!</p>
+                        </div>
+                    </div>
+                    <div class="reviews__slide">
+                        <div class="review-card">
+                            <div class="review-card__header">
+                                <div class="review-card__avatar">Д</div>
+                                <div class="review-card__info">
+                                    <h4>Дмитрий</h4>
+                                    <div class="review-card__rating">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="review-card__text">Делал капитальный ремонт двигателя. Сделали всё качественно, с гарантией. Цена оказалась ниже, чем в других сервисах.</p>
+                        </div>
+                    </div>
+                    <div class="reviews__slide">
+                        <div class="review-card">
+                            <div class="review-card__header">
+                                <div class="review-card__avatar">Е</div>
+                                <div class="review-card__info">
+                                    <h4>Елена</h4>
+                                    <div class="review-card__rating">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="review-card__text">Удобно, что работают без выходных. Записалась на диагностику в субботу, всё быстро сделали. Спасибо!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__nav">
+                    <button class="reviews__btn reviews__btn--prev">←</button>
+                    <button class="reviews__btn reviews__btn--next">→</button>
+                </div>
+                <div class="reviews__dots">
+                    <span class="reviews__dot active" data-slide="0"></span>
+                    <span class="reviews__dot" data-slide="1"></span>
+                    <span class="reviews__dot" data-slide="2"></span>
+                    <span class="reviews__dot" data-slide="3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contacts__grid">
+                <div class="contacts__info">
+                    <div class="contact-item">
+                        <div class="contact-item__icon">📍</div>
+                        <div class="contact-item__content">
+                            <div class="contact-item__label">Адрес</div>
+                            <div class="contact-item__value">Индустриальная ул., 4/1, Липецк</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item__icon">📞</div>
+                        <div class="contact-item__content">
+                            <div class="contact-item__label">Телефоны</div>
+                            <div class="contact-item__value">
+                                <a href="tel:+74742399995">39-99-95</a><br>
+                                <a href="tel:+79107429995">8-910-742-99-95</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item__icon">🕐</div>
+                        <div class="contact-item__content">
+                            <div class="contact-item__label">Режим работы</div>
+                            <div class="contact-item__value">Пн–Вс: 9:00 – 19:00<br>Без перерыва и выходных</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item__icon">⭐</div>
+                        <div class="contact-item__content">
+                            <div class="contact-item__label">Рейтинг</div>
+                            <div class="contact-item__value">4.8 из 5 (62 оценки)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?text=%D0%9A%D0%BB%D1%8E%D1%87%20%D0%98%D0%BD%D0%B4%D1%83%D1%81%D1%82%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%204%2F1%20%D0%9B%D0%B8%D0%BF%D0%B5%D1%86%D0%BA&z=16" width="100%" height="400" frameborder="0" allowfullscreen="true"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback -->
+    <section class="feedback">
+        <div class="container">
+            <h2 class="section-title">Оставить заявку</h2>
+            <form class="feedback__form" id="feedbackForm">
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" name="message" placeholder="Опишите проблему или услугу, которая вас интересует"></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary form-submit">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <span class="logo__icon">🔧</span>
+                    <span class="logo__text">Автосервис «Ключ»</span>
+                </div>
+                <div class="footer__contacts">
+                    <a href="tel:+74742399995">39-99-95</a>
+                    <a href="tel:+79107429995">8-910-742-99-95</a>
+                </div>
+                <div class="footer__address">Индустриальная ул., 4/1, Липецк</div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Автосервис «Ключ». Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <nav class="mobile-menu__nav">
+            <a href="#services" class="mobile-menu__link">Услуги</a>
+            <a href="#about" class="mobile-menu__link">О нас</a>
+            <a href="#gallery" class="mobile-menu__link">Фото</a>
+            <a href="#reviews" class="mobile-menu__link">Отзывы</a>
+            <a href="#contacts" class="mobile-menu__link">Контакты</a>
+        </nav>
+        <div class="mobile-menu__contacts">
+            <a href="tel:+74742399995" class="mobile-menu__phone">39-99-95</a>
+            <a href="tel:+79107429995" class="mobile-menu__phone">8-910-742-99-95</a>
+        </div>
+    </div>
+
+    <!-- Service Modals -->
+    <div class="modal" id="modal-diagnostics">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <div class="modal__icon">🔍</div>
+            <h3 class="modal__title">Диагностика</h3>
+            <p class="modal__description">Компьютерная диагностика всех систем автомобиля с использованием профессионального оборудования. Выявляем скрытые неисправности и ошибки.</p>
+            <div class="modal__prices">
+                <div class="modal__prices-title">Цены на диагностику</div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Компьютерная диагностика</span>
+                    <span class="modal__price-value">от 500 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Диагностика подвески</span>
+                    <span class="modal__price-value">от 800 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Диагностика ДВС</span>
+                    <span class="modal__price-value">от 1000 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Бесплатно при ремонте</span>
+                    <span class="modal__price-value">0 ₽</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-suspension">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <div class="modal__icon">🔧</div>
+            <h3 class="modal__title">Ремонт подвески</h3>
+            <p class="modal__description">Полный спектр работ по ремонту ходовой части: замена амортизаторов, пружин, рычагов, сайлентблоков, шаровых опор и ступичных подшипников.</p>
+            <div class="modal__prices">
+                <div class="modal__prices-title">Цены на ремонт подвески</div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена амортизаторов (пара)</span>
+                    <span class="modal__price-value">от 3000 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена пружин (пара)</span>
+                    <span class="modal__price-value">от 2500 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена рычага</span>
+                    <span class="modal__price-value">от 1500 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена сайлентблоков</span>
+                    <span class="modal__price-value">от 1200 ₽</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-engine">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <div class="modal__icon">⚙️</div>
+            <h3 class="modal__title">Ремонт ДВС</h3>
+            <p class="modal__description">Капитальный и текущий ремонт бензиновых и дизельных двигателей. Замена ГРМ, поршневой группы, прокладок и сальников.</p>
+            <div class="modal__prices">
+                <div class="modal__prices-title">Цены на ремонт ДВС</div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена ремня ГРМ</span>
+                    <span class="modal__price-value">от 5000 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена цепи ГРМ</span>
+                    <span class="modal__price-value">от 15000 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Капитальный ремонт</span>
+                    <span class="modal__price-value">от 50000 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена прокладки ГБЦ</span>
+                    <span class="modal__price-value">от 8000 ₽</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-brakes">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <div class="modal__icon">🛑</div>
+            <h3 class="modal__title">Ремонт тормозов</h3>
+            <p class="modal__description">Диагностика и ремонт тормозной системы. Замена колодок, дисков, суппортов, тормозных шлангов и жидкости.</p>
+            <div class="modal__prices">
+                <div class="modal__prices-title">Цены на ремонт тормозов</div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена колодок (ось)</span>
+                    <span class="modal__price-value">от 1500 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена дисков (пара)</span>
+                    <span class="modal__price-value">от 3000 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена суппорта</span>
+                    <span class="modal__price-value">от 2500 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена тормозной жидкости</span>
+                    <span class="modal__price-value">от 1000 ₽</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-oil">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <div class="modal__icon">🛢️</div>
+            <h3 class="modal__title">Замена масла</h3>
+            <p class="modal__description">Замена моторного масла, масляного фильтра, воздушного фильтра, салонного фильтра и свечей зажигания.</p>
+            <div class="modal__prices">
+                <div class="modal__prices-title">Цены на замену масла</div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена масла ДВС + фильтр</span>
+                    <span class="modal__price-value">от 800 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена воздушного фильтра</span>
+                    <span class="modal__price-value">от 300 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена салонного фильтра</span>
+                    <span class="modal__price-value">от 400 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена свечей зажигания</span>
+                    <span class="modal__price-value">от 600 ₽</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-exhaust">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <div class="modal__icon">💨</div>
+            <h3 class="modal__title">Выхлопная система</h3>
+            <p class="modal__description">Ремонт и замена элементов выхлопной системы: глушителей, катализаторов, резонаторов, гофр и креплений.</p>
+            <div class="modal__prices">
+                <div class="modal__prices-title">Цены на выхлопную систему</div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена глушителя</span>
+                    <span class="modal__price-value">от 2000 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена катализатора</span>
+                    <span class="modal__price-value">от 5000 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Замена резонатора</span>
+                    <span class="modal__price-value">от 2500 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Ремонт гофры</span>
+                    <span class="modal__price-value">от 1500 ₽</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-tires">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <div class="modal__icon">🛞</div>
+            <h3 class="modal__title">Шиномонтаж</h3>
+            <p class="modal__description">Сезонная замена шин, балансировка колёс, ремонт проколов и боковых порезов. Шиномонтаж до R20.</p>
+            <div class="modal__prices">
+                <div class="modal__prices-title">Цены на шиномонтаж</div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Сезонная замена (4 колеса)</span>
+                    <span class="modal__price-value">от 1600 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Балансировка (4 колеса)</span>
+                    <span class="modal__price-value">от 1200 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Ремонт прокола</span>
+                    <span class="modal__price-value">от 500 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Шиномонтаж R19-R20</span>
+                    <span class="modal__price-value">от 2500 ₽</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-parts">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <div class="modal__icon">🔩</div>
+            <h3 class="modal__title">Автозапчасти</h3>
+            <p class="modal__description">Продажа оригинальных запчастей и качественных аналогов. Подбор по VIN-коду. Заказ запчастей с доставкой.</p>
+            <div class="modal__prices">
+                <div class="modal__prices-title">Условия покупки</div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Оригинальные запчасти</span>
+                    <span class="modal__price-value">по каталогу</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Аналоги</span>
+                    <span class="modal__price-value">от -30%</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Подбор по VIN</span>
+                    <span class="modal__price-value">бесплатно</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Доставка</span>
+                    <span class="modal__price-value">1-3 дня</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-wash">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <div class="modal__icon">🚿</div>
+            <h3 class="modal__title">Автомойка</h3>
+            <p class="modal__description">Комплексная мойка кузова, уборка салона, химчистка. Мойка двигателя и подкапотного пространства.</p>
+            <div class="modal__prices">
+                <div class="modal__prices-title">Цены на мойку</div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Мойка кузова</span>
+                    <span class="modal__price-value">от 500 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Комплексная мойка</span>
+                    <span class="modal__price-value">от 1000 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Химчистка салона</span>
+                    <span class="modal__price-value">от 3000 ₽</span>
+                </div>
+                <div class="modal__price-item">
+                    <span class="modal__price-name">Мойка двигателя</span>
+                    <span class="modal__price-value">от 800 ₽</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
