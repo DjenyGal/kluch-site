@@ -49,6 +49,7 @@ npm run dev
 
 ## Документы
 - [Анализ ЦА и конкурентов](docs/analysis.md)
+- [Анализ отзывов](docs/reviews-analysis.md)
 - [Коммерческое предложение](docs/commercial-proposal.md)
 - [Скилл написания КП](../../agents/SCOUT/skills/commercial-proposal/SKILL.md)
 
