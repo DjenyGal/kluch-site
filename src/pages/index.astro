@@ -54,15 +54,6 @@ const reviews = [
 ];
 
 const galleryPhotos = ['2026-11-03_20-35-44.png', '2026-11-03_20-37-08.png', '2026-11-03_20-37-33.png', '2026-11-03_20-37-58.png', '2026-11-03_20-38-45.png', '2026-11-03_20-39-06.png', '2026-11-03_20-39-32.png', '2026-11-03_20-40-01.png'];
-
-const sectionPhotos = [
-  'images/2026-11-03_20-40-21.png',
-  'images/2026-11-03_20-40-47.png',
-  'images/2026-11-03_20-41-07.png',
-  'images/2026-11-03_20-41-25.png',
-  'images/2026-11-03_20-41-45.png',
-  'images/2026-11-03_20-42-10.png',
-];
 ---
 
 <Layout title="Автосервис «Ключ» — Липецк | Ремонт и обслуживание автомобилей">
@@ -143,11 +134,6 @@ const sectionPhotos = [
     </div>
   </section>
 
-  <!-- Section Photo -->
-  <div class="w-full h-64 overflow-hidden">
-    <img src={sectionPhotos[0]} alt="Автосервис «Ключ»" class="w-full h-full object-cover" loading="lazy" />
-  </div>
-
   <!-- Modals -->
   {services.map((service, idx) => (
     <div id={`modal-${idx}`} class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/80 backdrop-blur-sm" onclick={`closeModal(${idx})`}>
@@ -220,11 +206,6 @@ const sectionPhotos = [
       </div>
     </div>
   </section>
-
-  <!-- Section Photo -->
-  <div class="w-full h-64 overflow-hidden">
-    <img src={sectionPhotos[1]} alt="Автосервис «Ключ»" class="w-full h-full object-cover" loading="lazy" />
-  </div>
 
   <!-- Gallery -->
   <section id="gallery" class="py-20 bg-gray-800">
@@ -299,11 +280,6 @@ const sectionPhotos = [
     </div>
   </section>
 
-  <!-- Section Photo -->
-  <div class="w-full h-64 overflow-hidden">
-    <img src={sectionPhotos[2]} alt="Автосервис «Ключ»" class="w-full h-full object-cover" loading="lazy" />
-  </div>
-
   <!-- Contacts -->
   <section id="contacts" class="py-20 bg-gray-800">
     <div class="container mx-auto px-4">
@@ -351,11 +327,6 @@ const sectionPhotos = [
       </div>
     </div>
   </section>
-
-  <!-- Section Photo -->
-  <div class="w-full h-64 overflow-hidden">
-    <img src={sectionPhotos[3]} alt="Автосервис «Ключ»" class="w-full h-full object-cover" loading="lazy" />
-  </div>
 
   <!-- Contact Form -->
   <section class="py-20 bg-gray-900">
